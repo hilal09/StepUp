@@ -8,6 +8,7 @@ public class CreateMarkerOnSpline : MonoBehaviour
     public GameObject marker=null;
     private float progress = 0f;
     GameObject markerSet;
+    public Sprite yourFootstepSprite;
    
    void Update()
    {
@@ -26,7 +27,9 @@ public class CreateMarkerOnSpline : MonoBehaviour
         if(position>=0.5 && !markerSet)
         {
             Debug.Log("CREATE MARKER");
-           markerSet= GameObject.Instantiate(marker,transform.position, Quaternion.identity);
+            markerSet= GameObject.Instantiate(marker,transform.position, Quaternion.identity);
+           // Attach the footstep image to the markerSet GameObject
+            markerSet.GetComponent<SpriteRenderer>().sprite = yourFootstepSprite;
         }
 
         if(position<0.4)

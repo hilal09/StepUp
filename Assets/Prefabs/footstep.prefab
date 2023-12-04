@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3079283686253125714}
   - component: {fileID: 3613333385258017638}
   m_Layer: 0
-  m_Name: fottstep
+  m_Name: footstep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
