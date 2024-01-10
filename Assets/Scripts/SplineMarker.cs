@@ -13,7 +13,7 @@ public class SplineMarker : MonoBehaviour
     [SerializeField] GameObject markerPrefab;
 
     bool isInitialized=false;
-    // Start is called before the first frame update
+    
     void Start()
     {
         spline=splineContainer.Spline;
@@ -21,7 +21,6 @@ public class SplineMarker : MonoBehaviour
 
         foreach (BezierKnot bezierKnot in spline.Knots)
         {
-            //Debug.Log(bezierKnot);
             GameObject.Instantiate(markerPrefab, new Vector3(bezierKnot.Position.x,bezierKnot.Position.y,bezierKnot.Position.z),bezierKnot.Rotation);
         }
     }
