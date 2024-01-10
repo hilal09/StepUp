@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 3485745459821700382}
   - component: {fileID: 5985838424070897964}
   m_Layer: 0
-  m_Name: fp2white
+  m_Name: fp1white
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
