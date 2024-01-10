@@ -120,37 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &171438332
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 171438333}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &171438333
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171438332}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 394.01526, y: 177.93588, z: 149.92738}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &182545022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,7 +1234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splineContainer: {fileID: 182545023}
-  markerPrefab: {fileID: 6999323464602375494, guid: 0f325215f317ed1418eb8b738b379520, type: 3}
+  markerPrefab: {fileID: 6999323464602375494, guid: 27a89dd72af89e24fa904a500578e0e8, type: 3}
 --- !u!114 &1151667765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1702,4 +1671,3 @@ SceneRoots:
   - {fileID: 1671468704}
   - {fileID: 182545024}
   - {fileID: 1151667769}
-  - {fileID: 171438333}
