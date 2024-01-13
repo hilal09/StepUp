@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -543,7 +543,6 @@ GameObject:
   - component: {fileID: 637657616}
   - component: {fileID: 637657615}
   - component: {fileID: 637657617}
-  - component: {fileID: 637657618}
   m_Layer: 0
   m_Name: catcher controller
   m_TagString: Untagged
@@ -596,7 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ff2e515a81541cbb664860588e2c6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sourceType: 1
+  _sourceType: 2
   _texture: {fileID: 0}
   _textureUrl: 
   _video: {fileID: 32900000, guid: 4225d95a76739214a8978c53c2924add, type: 3}
@@ -607,20 +606,6 @@ MonoBehaviour:
   _outputTexture: {fileID: 0}
   _outputResolution: {x: 1920, y: 1080}
   _shader: {fileID: 4800000, guid: 3f7d8db4748f54c638a46cec0b0e61f8, type: 3}
---- !u!114 &637657618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637657614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e78f911d1f70dcc4ebe407a3272c9400, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  splineMarker: {fileID: 1151667764}
-  scaleX: 1920
 --- !u!1 &1151667763
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,7 +641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splineContainer: {fileID: 1928779264564102901, guid: f03ec6b6d969fa2478053c520d396a55, type: 3}
-  markerPrefab: {fileID: 6999323464602375494, guid: a1e417084672b5f46bd19bc285f80eb9, type: 3}
+  markerPrefab: {fileID: 6999323464602375494, guid: 0f325215f317ed1418eb8b738b379520, type: 3}
 --- !u!114 &1151667765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,6 +787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1494190868}
+  - component: {fileID: 1494190869}
   m_Layer: 0
   m_Name: catcher
   m_TagString: Untagged
@@ -824,6 +810,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 637657616}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1494190869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494190867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e78f911d1f70dcc4ebe407a3272c9400, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splineMarker: {fileID: 1151667764}
+  scaleX: 1920
 --- !u!1 &1671468701
 GameObject:
   m_ObjectHideFlags: 0
