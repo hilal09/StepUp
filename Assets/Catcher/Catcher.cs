@@ -31,16 +31,16 @@ public sealed class Catcher : MonoBehaviour
     void Update()
     {
         _detector.ProcessImage(_source.Texture);
-        var hand = _detector.Keypoints[(int)Body.KeypointID.RightWrist];
+        var hand = _detector.Keypoints[(int)Body.KeypointID.RightShoulder];
 
         var rectSize = _previewUI.rectTransform.rect.size;
         _markerUI.anchoredPosition = hand.Position * rectSize;
         _markerUI.GetComponent<Image>().color = new Color(1, 0, 0, hand.Score);
 
-        if (hand.Score > 0.8f) _target = hand.Position;
+        if (hand.Score > 0.5f) _target = hand.Position;
         var filtered = _filter.Step(Time.time, _target);
         filtered = (filtered - 0.5f) * math.float2(-2, 0.8f);
-        _catcher.localPosition = math.float3(filtered, 0);
+        if (hand.Score > 0.5f)_catcher.localPosition = new Vector3( 800-(hand.Position.x*800), _catcher.localPosition.y,_catcher.localPosition.z);//math.float3(filtered, 0);
 
         _previewUI.texture = _source.Texture;
     }
