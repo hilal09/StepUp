@@ -244,8 +244,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.3215176
         T: 0.03448276
       - Distance: 2.8198738
@@ -307,8 +307,8 @@ MonoBehaviour:
     - Mode: 2
       Tension: 0.5
       m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 6.910082
         T: 0.03448276
       - Distance: 13.081379
@@ -370,8 +370,8 @@ MonoBehaviour:
     - Mode: 3
       Tension: 0.5
       m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 4.9067793
         T: 0.03448276
       - Distance: 10.053015
@@ -433,8 +433,8 @@ MonoBehaviour:
     - Mode: 4
       Tension: 0.5
       m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.9216072
         T: 0.03448276
       - Distance: 1.6922995
@@ -496,8 +496,8 @@ MonoBehaviour:
     - Mode: 4
       Tension: 0.5
       m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 9.40113
         T: 0.03448276
       - Distance: 18.157429
@@ -559,8 +559,8 @@ MonoBehaviour:
     - Mode: 4
       Tension: 0.5
       m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 15.517825
         T: 0.03448276
       - Distance: 29.601961
@@ -622,8 +622,8 @@ MonoBehaviour:
     - Mode: 3
       Tension: 0.5
       m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 9.500204
         T: 0.03448276
       - Distance: 18.114628
@@ -685,8 +685,8 @@ MonoBehaviour:
     - Mode: 2
       Tension: 0.5
       m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 9.302667
         T: 0.03448276
       - Distance: 18.124279
@@ -748,8 +748,8 @@ MonoBehaviour:
     - Mode: 2
       Tension: 0.5
       m_DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 4.071306
         T: 0.03448276
       - Distance: 8.453056
