@@ -538,7 +538,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: rabbit
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 265558553942923578, guid: bdcc6447c06a4724494c9a782b9580c1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1701,7 +1702,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: butterfly 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 265558553942923578, guid: 48922abdfb37541439484784427a010c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -2739,7 +2741,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: deer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 265558553942923578, guid: e746121bf24df744aa368661f8f50335, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -3214,7 +3217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 254684230193757587, guid: e816b75d48558c44db7b45a65074365a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 395
+      value: 413
       objectReference: {fileID: 0}
     - target: {fileID: 254684230193757587, guid: e816b75d48558c44db7b45a65074365a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3280,7 +3283,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 265558553942923578, guid: e816b75d48558c44db7b45a65074365a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -3432,7 +3436,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: butterfly
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 265558553942923578, guid: 62800db36268a504f99dade93f3bf784, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
