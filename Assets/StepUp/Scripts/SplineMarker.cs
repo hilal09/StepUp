@@ -13,7 +13,7 @@ public class SplineMarker : MonoBehaviour
     [SerializeField] GameObject markerPrefab;
 
     bool isInitialized=false;
-    
+    public float position=-1;
     void Start()
     {
         spline=splineContainer.Spline;
@@ -28,6 +28,7 @@ public class SplineMarker : MonoBehaviour
     public void SetNormalMarkerPosition(float position)
     {
         splineAnimate.NormalizedTime=position;
+        this.position=position;
     }
 
     private void OnTriggerEnter(Collider other) {
@@ -58,6 +59,11 @@ public class SplineMarker : MonoBehaviour
             animator.SetTrigger("ScaleIn");
             state.isActivated=true;
         }
+    }
+
+    public float GetPosition()
+    {
+        return position;
     }
 
 }

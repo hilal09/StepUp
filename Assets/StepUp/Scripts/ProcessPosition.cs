@@ -7,7 +7,7 @@ using UnityEngine.Splines;
 public class ProcesPostion : MonoBehaviour
 {
     [SerializeField] SplineMarker splineMarker;
-    [SerializeField] float scaleX=1920;
+    [SerializeField] float scaleX=2048;
 
     [SerializeField] SplineExtrude splineExtrude;
  

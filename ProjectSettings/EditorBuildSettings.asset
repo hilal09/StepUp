@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Visualizer.unity
+    path: Assets/StepUp/Scenes/Visualizer.unity
     guid: 48ec58351d355467b959abe74cef934c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
