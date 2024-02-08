@@ -19,10 +19,6 @@ public class SplineMarker : MonoBehaviour
         spline=splineContainer.Spline;
         splineAnimate=transform.GetComponent<SplineAnimate>();
 
-        // foreach (BezierKnot bezierKnot in spline.Knots)
-        // {
-        //     GameObject.Instantiate(markerPrefab, new Vector3(bezierKnot.Position.x,bezierKnot.Position.y,bezierKnot.Position.z),bezierKnot.Rotation);
-        // }
     }
 
     public void SetNormalMarkerPosition(float position)
@@ -34,7 +30,6 @@ public class SplineMarker : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         
         
-        //Switchrenderer(other);
         PlayAnimation(other);
 
     }

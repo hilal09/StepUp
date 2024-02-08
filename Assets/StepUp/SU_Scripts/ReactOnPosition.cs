@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ReactOnPosition : MonoBehaviour
 {
-    // Start
     SplineMarker splineMarker;
     bool isActivated=false;
     Animator animator;
@@ -15,7 +14,6 @@ public class ReactOnPosition : MonoBehaviour
         animator=transform.GetComponentInChildren<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (splineMarker.position>transform.position.x/750)

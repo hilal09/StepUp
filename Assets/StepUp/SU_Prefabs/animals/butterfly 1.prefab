@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6138622273042544835}
   - component: {fileID: 265558553942923578}
   m_Layer: 0
-  m_Name: deer
+  m_Name: butterfly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,13 +26,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4035086522962096163}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 30, y: 30, z: 4.3234}
+  m_LocalScale: {x: 4.3234, y: 4.3234, z: 4.3234}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 254684230193757587}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &6138622273042544835
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f63870a92da660040bf8ebc0707cc8e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b80cbe70bd0bbe04ba7796dd43e7ff7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,8 +118,9 @@ GameObject:
   - component: {fileID: 254684230193757587}
   - component: {fileID: 3485745459821700382}
   - component: {fileID: 5985838424070897964}
+  - component: {fileID: 9173160274508779746}
   m_Layer: 0
-  m_Name: deer
+  m_Name: butterfly 1
   m_TagString: Footprint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,7 +136,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 3.1325998, y: 3.1325998, z: 3.1325998}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2473642885150029678}
@@ -158,9 +159,9 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
-  m_Size: {x: 50, y: 150, z: 20}
+  m_Size: {x: 10, y: 10, z: 20}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5985838424070897964
 MonoBehaviour:
@@ -175,3 +176,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActivated: 0
+--- !u!114 &9173160274508779746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6999323464602375494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43cea44a1a70e64e89fed9c803fa4b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
