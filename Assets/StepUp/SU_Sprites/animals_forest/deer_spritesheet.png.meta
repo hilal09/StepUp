@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: b80cbe70bd0bbe04ba7796dd43e7ff7e
+guid: c8fcfc57fab506b48943c4a945ae2155
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7664605693119280686
-    second: butterfly_0
+      213: -14699687954721405
+    second: deer_spritesheet_0
   - first:
-      213: -8249794775284251456
-    second: butterfly_1
+      213: 8350612161727495982
+    second: deer_spritesheet_1
+  - first:
+      213: 7767118955119634024
+    second: deer_spritesheet_2
+  - first:
+      213: -3335861465276058747
+    second: deer_spritesheet_3
+  - first:
+      213: -2239095515494955582
+    second: deer_spritesheet_4
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -49,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -101,43 +110,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: butterfly_0
+      name: deer_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 6
-        width: 242
-        height: 226
+        x: 6
+        y: 0
+        width: 256
+        height: 479
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d9403e1bb9d1a590800000000000000
-      internalID: -7664605693119280686
+      spriteID: 385562136b6cbcff0800000000000000
+      internalID: -14699687954721405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: butterfly_1
+      name: deer_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 13
-        y: 61
-        width: 8
-        height: 10
+        x: 268
+        y: 0
+        width: 236
+        height: 485
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c40f457c57d28d80800000000000000
-      internalID: -8249794775284251456
+      spriteID: e2ff2d4848553e370800000000000000
+      internalID: 8350612161727495982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deer_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 4
+        width: 254
+        height: 477
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866eb18a9895acb60800000000000000
+      internalID: 7767118955119634024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deer_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5837e46eba3a4b1d0800000000000000
+      internalID: -3335861465276058747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deer_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5c0cced722de0e0800000000000000
+      internalID: -2239095515494955582
       vertices: []
       indices: 
       edges: []
@@ -145,7 +217,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e70eba15e516a004381aaf30c2a367cf
     internalID: 0
     vertices: []
     indices: 
@@ -153,8 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      butterfly_0: -7664605693119280686
-      butterfly_1: -8249794775284251456
+      deer_spritesheet_0: -14699687954721405
+      deer_spritesheet_1: 8350612161727495982
+      deer_spritesheet_2: 7767118955119634024
+      deer_spritesheet_3: -3335861465276058747
+      deer_spritesheet_4: -2239095515494955582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -682,6 +682,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: bdcc6447c06a4724494c9a782b9580c1, type: 3}
+      propertyPath: m_Size.x
+      value: 6.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: bdcc6447c06a4724494c9a782b9580c1, type: 3}
+      propertyPath: m_Size.y
+      value: 3.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: bdcc6447c06a4724494c9a782b9580c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1717428877423790489, guid: a5eb0e412fd877146a288927f9cc1672, type: 3}
+    - target: {fileID: 6138622273042544835, guid: bdcc6447c06a4724494c9a782b9580c1, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6999323464602375494, guid: bdcc6447c06a4724494c9a782b9580c1, type: 3}
       propertyPath: m_Name
       value: rabbit
@@ -2193,6 +2209,22 @@ PrefabInstance:
     - target: {fileID: 3485745459821700382, guid: 48922abdfb37541439484784427a010c, type: 3}
       propertyPath: m_Size.y
       value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: 48922abdfb37541439484784427a010c, type: 3}
+      propertyPath: m_Size.x
+      value: 1.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: 48922abdfb37541439484784427a010c, type: 3}
+      propertyPath: m_Size.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: 48922abdfb37541439484784427a010c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6539102624834488763, guid: fb6d903884ac7c24a8be8eeaf81efa8e, type: 3}
+    - target: {fileID: 6138622273042544835, guid: 48922abdfb37541439484784427a010c, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6999323464602375494, guid: 48922abdfb37541439484784427a010c, type: 3}
       propertyPath: m_Name
@@ -4023,6 +4055,22 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 400
       objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: e746121bf24df744aa368661f8f50335, type: 3}
+      propertyPath: m_Size.x
+      value: 2.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: e746121bf24df744aa368661f8f50335, type: 3}
+      propertyPath: m_Size.y
+      value: 4.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: e746121bf24df744aa368661f8f50335, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8350612161727495982, guid: c8fcfc57fab506b48943c4a945ae2155, type: 3}
+    - target: {fileID: 6138622273042544835, guid: e746121bf24df744aa368661f8f50335, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6999323464602375494, guid: e746121bf24df744aa368661f8f50335, type: 3}
       propertyPath: m_Name
       value: deer
@@ -4819,6 +4867,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 300
       objectReference: {fileID: 0}
+    - target: {fileID: 6138622273042544835, guid: 62800db36268a504f99dade93f3bf784, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6539102624834488763, guid: fb6d903884ac7c24a8be8eeaf81efa8e, type: 3}
     - target: {fileID: 6999323464602375494, guid: 62800db36268a504f99dade93f3bf784, type: 3}
       propertyPath: m_Name
       value: butterfly
@@ -5683,12 +5735,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7156409440482370284, guid: bf1a6924c999f5b4fab5eb60f7da5940, type: 3}
+  m_Sprite: {fileID: 7153940696630332738, guid: d9fe358f0555e3e4082d1c29b2e6729b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.46, y: 1.51}
+  m_Size: {x: 2.4, y: 1.67}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5704,7 +5756,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 59, y: 296, z: -39}
-  m_LocalScale: {x: 1, y: 1, z: 10}
+  m_LocalScale: {x: 30, y: 30, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
