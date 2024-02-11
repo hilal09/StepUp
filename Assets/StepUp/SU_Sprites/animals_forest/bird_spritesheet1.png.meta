@@ -107,8 +107,8 @@ TextureImporter:
       name: bird_spritesheet1_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 177
+        x: 51
+        y: 179
         width: 240
         height: 167
       alignment: 0
@@ -128,9 +128,9 @@ TextureImporter:
       name: bird_spritesheet1_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 2
-        width: 256
+        x: 3
+        y: 3
+        width: 260
         height: 157
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
