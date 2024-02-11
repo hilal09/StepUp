@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: e4d51c7d5693d2f4db178d8ba6d25c12
+guid: fb6d903884ac7c24a8be8eeaf81efa8e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5362292703166988329
-    second: rabbit_0
+      213: 7260606908970094490
+    second: butterfly_spritesheet_0
+  - first:
+      213: -6539102624834488763
+    second: butterfly_spritesheet_1
+  - first:
+      213: -5518638898485365314
+    second: butterfly_spritesheet_2
+  - first:
+      213: -7395024254787083793
+    second: butterfly_spritesheet_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -98,22 +107,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rabbit_0
+      name: butterfly_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 13
-        width: 303
-        height: 260
+        x: 7
+        y: 5
+        width: 204
+        height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dfff06723f4595b0800000000000000
-      internalID: -5362292703166988329
+      spriteID: a9fc8eee38bd2c460800000000000000
+      internalID: 7260606908970094490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 111
+        width: 193
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5467ae0fec07045a0800000000000000
+      internalID: -6539102624834488763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5702c292bd963b0800000000000000
+      internalID: -5518638898485365314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1a40cee989f5990800000000000000
+      internalID: -7395024254787083793
       vertices: []
       indices: 
       edges: []
@@ -121,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 7c1c07e43bd5c8946abacd8e68f054d7
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      rabbit_0: -5362292703166988329
+      butterfly_spritesheet_0: 7260606908970094490
+      butterfly_spritesheet_1: -6539102624834488763
+      butterfly_spritesheet_2: -5518638898485365314
+      butterfly_spritesheet_3: -7395024254787083793
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
