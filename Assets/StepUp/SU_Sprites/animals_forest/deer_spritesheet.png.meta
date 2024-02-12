@@ -113,8 +113,8 @@ TextureImporter:
       name: deer_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 0
+        x: 18
+        y: 1
         width: 256
         height: 479
       alignment: 0
@@ -134,8 +134,8 @@ TextureImporter:
       name: deer_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 268
-        y: 0
+        x: 328
+        y: 3
         width: 236
         height: 485
       alignment: 0
@@ -155,8 +155,8 @@ TextureImporter:
       name: deer_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 582
-        y: 4
+        x: 591
+        y: 5
         width: 254
         height: 477
       alignment: 0

@@ -200,7 +200,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      butterfly1_spritesheet_0: 732571144634500141
+      butterfly1_spritesheet_1: 4820105077164394468
+      butterfly1_spritesheet_2: 6281912687679780500
+      butterfly1_spritesheet_3: 2743543474552247869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
